@@ -43,9 +43,9 @@ function displayReward () {
     var reward = document.getElementById('reward')
     if (clicks <= 50) {
         reward.textContent = "You couldn't even beat my grandma.";
-    } else if (51 <= clicks <= 100) {
+    } else if (clicks >= 51 && clicks <= 100) {
         reward.textContent = "Good... Not great.";
-    } else if (101 <= clicks <= 150) {
+    } else if (clicks >= 101 && clicks <= 150) {
         reward.textContent = "Color me mildly impressed.";
     } else if (clicks >= 151) {
         reward.textContent = "God, is that you?";
