@@ -48,7 +48,7 @@ function displayReward () {
     } else if (clicks >= 101 && clicks <= 150) {
         reward.textContent = "Color me mildly impressed.";
     } else if (clicks >= 151) {
-        reward.textContent = "You broke it, Richard.";
+        reward.textContent = "This is your moment in the sun";
     }
 }
 
